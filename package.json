@@ -1,0 +1,25 @@
+{
+  "name": "puppeteer-payment",
+  "version": "1.0.0",
+  "description": "automated software adding payment ",
+  "main": "./tests/example.test.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha --timeout=0 ./tests"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Prepaid"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "prettier": "^2.6.2",
+    "puppeteer": "^14.1.2"
+  },
+  "devDependencies": {
+    "electron": "^19.0.4",
+    "electron-packager": "^15.5.1"
+  }
+}
